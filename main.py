@@ -1,3 +1,12 @@
+############################################   -== INFORMATION ==-   ############################################
+
+#### THE PROGRAM WAS CREATED AND PUBLISHED BY:
+#### https://github.com/viktorsynek
+#### https://www.linkedin.com/in/viktor-synek/
+
+#############################################   -== PROGRAM ==-   ###############################################
+
+#IMPORT LIBRARIES
 import tkinter
 from tkinter import *
 
@@ -19,6 +28,7 @@ def fresult():
 def clearf():
         entry.delete(0,"end")
 
+# GRAPHICAL USER INTERFACE STUFF - TKINTER
 app.geometry("170x230")
 app.title("Calculator")
 
